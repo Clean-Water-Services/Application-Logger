@@ -6,10 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-      <PackageId>cws.application-logger</PackageId>
-      <version>1.0.1</version>
-      <author>Greg Arrigotti</author>
-      <company>Clean Water Services</company>
+    <PackageId>CleanWaterServices.LoggingTelemetry</PackageId>
+    <PackageVersion>1.0.0.01</PackageVersion>
+    <Authors>Greg Arrigotti</Authors>
+    <PackageReadMeFile>ReadMe.md</PackageReadMeFile>
+    <RepositoryUrl>https://github.com/Clean-Water-Services/Application-Logger</RepositoryUrl>
+    <Description>A extension library atop of Serilog Library.  It creates a clean wrapper for logging and telemetry into the environment insight platform.</Description>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,6 +20,8 @@
     <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
     <PackageReference Include="Serilog.Sinks.Console" Version="5.0.1" />
     <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+
+    <None Include="ReadMe.md" Pack="true" PackagePath="." />
   </ItemGroup>
 
 </Project>

@@ -7,20 +7,20 @@ The project is a simple library meant to be an extension method leveraged with S
 You can install it in multiple ways depending on which platform you're using. If you use your default terminal window with the dotnet command line interface.
 
 ```powershell
-dotnet add package cws.application-logger
+dotnet add package CleanWaterServices.LoggingTelemetry
 ```
 
 If your inside Visual Studio Code or Visual Studio you can leverage their terminal with:
 
 ```powershell
-Install-Package cws.application-logger
+Install-Package CleanWaterServices.LoggingTelemetry
 ```
 
 If you would like to use the Visual Studio graphical user interface you can do the following:
 
 1. &#x20;Select **Project** in upper left hand corner.
 2. &#x20;Choose **Manage Nuget Packages**
-3. &#x20;Select browse, then search for **cws.application-logger**
+3. &#x20;Select browse, then search for **CleanWaterServices.LoggingTelemetry**
 
 ### Code Example
 
